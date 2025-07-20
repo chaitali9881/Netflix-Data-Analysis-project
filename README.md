@@ -54,6 +54,19 @@ To provide an **intuitive, filter-driven tool** that:
 - **Acquisitions:** License more non-U.S. content to diversify offerings.  
 
 ---
+🟡 SQL Questions 
+1. Retrieve all movies released after 2015.
+2. List all distinct genres in the dataset.
+3. Find the average rating for each genre.
+4. Which year had the highest number of movie releases?
+5. Get popularity between 7 and 9, sorted by descending rating.
+6. Find all movies with the keyword “love” in the title.
+
+🐍 Python (Pandas/Seaborn/Matplotlib)
+1.	📅 Trend Analysis: Plot number of releases per year.
+2.	📈 Distribution of content types using Seaborn.
+3.	🌎 Top countries with most content.
+4.	📊yearly release trends.
 
 ### **Screenshots / Demo**  
 <img src = "https://github.com/chaitali9881/Netflix-Data-Analysis-project/blob/main/netflix_screenshort.png">
