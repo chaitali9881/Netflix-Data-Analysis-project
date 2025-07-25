@@ -2,14 +2,14 @@
 
 ---
 
-# 📝 Short Description / Purpose
+📝 Short Description / Purpose
 
 The Netflix data analysis project Dashboard provides a comprehensive, visual breakdown of Netflix’s content catalog. It helps users, analysts, and content strategists understand platform trends, popular genres, regional content diversity, and distribution between movies and shows.
 
 
 ---
 
-# ⚙️ Tech Stack
+⚙️ Tech Stack
 
 The dashboard was built using the following tools and technologies:
 
@@ -43,7 +43,7 @@ Structured data on both Movies and Shows from 2000 onward
 
 ---
 
-# 🌟 Features / Highlights
+🌟 Features / Highlights
 
 🎯 Business Problem
 
@@ -133,7 +133,7 @@ Genre
 
 ---
 
-# 📈 Business Impact & Insights
+📈 Business Impact & Insights
 
 Genre Targeting: Helps content teams double down on popular genres like Comedy and Drama.
 
@@ -145,6 +145,8 @@ Runtime & Rating Analysis: Allows understanding of the platform's content volume
 
 
 ---
+Questions
+
 🟡 SQL Questions 
 1. Retrieve all movies released after 2015.
 2. List all distinct genres in the dataset.
@@ -159,5 +161,5 @@ Runtime & Rating Analysis: Allows understanding of the platform's content volume
 3.	🌎 Top countries with most content.
 4.	📊yearly release trends.
 
-### **Screenshots / Demo**  
+Screenshots / Demo
 <img src = "https://github.com/chaitali9881/Netflix-Data-Analysis-project/blob/main/netflix_screenshort.png">
