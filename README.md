@@ -1,5 +1,3 @@
-
-
 # **🎬 Netflix-Data-Analysis-project**  
 
 ---
@@ -23,7 +21,7 @@ The dashboard was built using the following tools and technologies:
 
 🔗 Data Modeling – Established relationships between content, countries, genres, release years, and runtime tables.
 
-📁 File Format – .pbix for development, netflix_screenshot.png for visual previews.
+📁 File Format – netflix.pbix for development, netflix_screenshot.png for visual previews.
 
 
 
