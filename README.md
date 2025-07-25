@@ -4,54 +4,147 @@
 
 ---
 
-### **Short Description / Purpose**  
-The **Netflix-Data-Analysis-project** is an interactive Power BI report designed to dissect Netflix’s vast catalog of **5,805 titles** (3,758 movies, 2,047 shows) with **7,513+ runtime hours**. It enables users to explore content trends by genre, release year, IMDb ratings, and region, answering critical questions like:  
-- Which genres dominate Netflix’s library?  
-- How has content production evolved over time?  
-- Which countries contribute the most content?  
-- What’s the average quality (IMDb) of Netflix’s offerings?  
+# 📝 Short Description / Purpose
 
-Built for **content strategists, data analysts, and entertainment professionals**, this dashboard transforms raw data into actionable insights for content acquisition, marketing, and audience engagement.  
+The Netflix data analysis project Dashboard provides a comprehensive, visual breakdown of Netflix’s content catalog. It helps users, analysts, and content strategists understand platform trends, popular genres, regional content diversity, and distribution between movies and shows.
+
 
 ---
 
-### **Tech Stack**  
-- **📊 Power BI Desktop** – Primary visualization and interaction platform.  
-- **🧹 Power Query** – Data cleaning (handled missing values, standardized genres/countries).  
-- **🧠 DAX (Data Analysis Expressions)** – Calculated measures for KPIs (e.g., avg. ratings, content growth rate).  
-- **📂 Data Modeling** – Established relationships between tables (titles, genres, countries) for cross-filtering.  
-- **🌍 Geospatial Mapping** – Integrated maps to visualize regional content distribution.  
+# ⚙️ Tech Stack
+
+The dashboard was built using the following tools and technologies:
+
+📊 Power BI Desktop – Core tool for report development and interactivity.
+
+📂 Power Query – Used for cleaning, filtering, and shaping data for analysis.
+
+🧠 DAX (Data Analysis Expressions) – Enabled the creation of key metrics, dynamic filters, and calculated visuals.
+
+🔗 Data Modeling – Established relationships between content, countries, genres, release years, and runtime tables.
+
+📁 File Format – .pbix for development, netflix_screenshot.png for visual previews.
+
+
 
 ---
 
-### **Data Source**  
-- **Dataset:** Publicly available Netflix Movies & TV Shows data (from Kaggle/Web Scraping).  
-- **Structure:**  
-  - **5,805 records** with attributes: *Title, Type (Movie/Show), Release Year, Runtime, Genres, IMDb Rating, Country*.  
-  - **Cleaned Data:** Removed duplicates, filled missing ratings, and normalized genre tags (e.g., "Comedy-Drama" → "Comedy, Drama").  
+📊 Data Source
+
+Source: Public Netflix Titles Dataset 
+
+The dataset includes:
+
+~5,800 Netflix titles
+
+Metadata fields like title, type, genre, runtime, country, IMDb rating, and release_year
+
+Structured data on both Movies and Shows from 2000 onward
+
+
 
 ---
 
-### **Features / Highlights**  
+# 🌟 Features / Highlights
 
-#### **Business Problem**  
-Netflix’s content strategy relies on understanding **what resonates with global audiences**. Yet, raw data makes it hard to answer:  
-- Which genres are over/under-represented?  
-- Are newer releases higher quality (IMDb) than older ones?  
-- Which regions should Netflix invest in for original content?  
+🎯 Business Problem
 
-#### **Goal of the Dashboard**  
-To provide an **intuitive, filter-driven tool** that:  
-1. Tracks content growth and genre trends over time.  
-2. Benchmarks IMDb ratings by genre/region.  
-3. Identifies gaps and opportunities in Netflix’s library.
+With a rapidly growing global content library, Netflix needs tools that help in analyzing what genres are trending, where content originates from, how movies and shows are split, and how content production has evolved over the years.
+
+Key questions addressed:
+
+What are the top-performing genres on Netflix?
+
+How does Netflix's movie and show distribution look?
+
+Which countries are contributing most to Netflix content?
+
+What is the average IMDb rating and total runtime of the library?
+
+
 
 ---
 
-#### **Business Impact & Insights**  
-- **Content Strategy:** Invest in high-rated genres (dramas, documentaries) and underrepresented regions (Asia).  
-- **Marketing:** Promote comedy-heavy libraries in family-friendly markets.  
-- **Acquisitions:** License more non-U.S. content to diversify offerings.  
+🎯 Goal of the Dashboard
+
+To build a data-rich, intuitive platform that:
+
+Offers insights into Netflix’s content trends and global expansion
+
+Enables filtering and slicing by genre, title, release year, and content type
+
+Helps data teams, media analysts, and content strategists evaluate platform diversity and growth
+
+
+
+---
+
+👁️ Walkthrough of Key Visuals
+
+1. Key KPIs (Left Sidebar)
+
+Total Content: 5,805 titles
+
+Runtime Hours: 7,513+ hours
+
+Movies: 3,758
+
+Shows: 2,047
+
+Average IMDb Rating: 5.94
+
+
+
+2. About Netflix (Top Center)
+A short description panel gives context about Netflix’s history and evolution.
+
+
+3. Top 5 Genres (Bar Chart)
+Most common genres, with a breakdown between Movies and Shows. Comedy and Drama are dominant.
+
+
+4. Country Distribution (Map View)
+Interactive global map showcasing where Netflix content originates from, marked with red dots.
+
+
+5. Content Growth by Year and Type (Line Chart)
+Trend of Movies and Shows added to Netflix after the year 2000. Rapid growth post-2015 is noticeable.
+
+
+6. Content Type Distribution (Donut Chart)
+Breakdown:
+
+Movies: 65%
+
+Shows: 35%
+
+
+
+7. Slicers (Top Right)
+Dynamic filtering by:
+
+Release year
+
+Title
+
+Genre
+
+
+
+
+
+---
+
+# 📈 Business Impact & Insights
+
+Genre Targeting: Helps content teams double down on popular genres like Comedy and Drama.
+
+Content Planning: Identifies how content types (Movies vs. Shows) have evolved over time.
+
+Global Footprint: Offers a visual overview of Netflix’s worldwide content presence.
+
+Runtime & Rating Analysis: Allows understanding of the platform's content volume and quality (via IMDb rating).
+
 
 ---
 🟡 SQL Questions 
